@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: release-app
+  tag: "v1.0.0"
+  pullPolicy: IfNotPresent
+
+app:
+  env: "production"
+  port: 8080
